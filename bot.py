@@ -7,12 +7,13 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 from pyrogram.errors import BadRequest
 
 # Configs
-API_HASH = os.environ['API_HASH'] # Api hash
-APP_ID = int(os.environ['APP_ID']) # Api id/App id
-BOT_TOKEN = os.environ['BOT_TOKEN'] # Bot token
-OWNER_ID = os.environ['OWNER_ID'] # Your telegram id
-AS_ZIP = bool(os.environ['AS_ZIP']) # Upload method. If True: will Zip all your files and send as zipfile | If False: will send file one by one
-BUTTONS = bool(os.environ['BUTTONS']) # Upload mode. If True: will send buttons (Zip or One by One) instead of AZ_ZIP | If False: will do as you've fill on AZ_ZIP
+API_HASH = os.environ['116795591c577f90e4519bdc265934b7
+'] # Api hash
+APP_ID = int(os.environ['29569253']) # Api id/App id
+BOT_TOKEN = os.environ['6037473122:AAHGAL0iGxN2uLLPVA6KO8pUxLyqp6uRHaY'] # Bot token
+OWNER_ID = os.environ['5842877813'] # Your telegram id
+AS_ZIP = bool(os.environ['False']) # Upload method. If True: will Zip all your files and send as zipfile | If False: will send file one by one
+BUTTONS = bool(os.environ['Flase']) # Upload mode. If True: will send buttons (Zip or One by One) instead of AZ_ZIP | If False: will do as you've fill on AZ_ZIP
 
 # Buttons
 START_BUTTONS=[
