@@ -9,7 +9,7 @@ from pyrogram.errors import BadRequest
 # Configs
 API_HASH = os.environ['API_HASH', '116795591c577f90e4519bdc265934b7'] # Api hash
 APP_ID = int(os.environ['API_ID', '29569253']) # Api id/App id
-BOT_TOKEN = os.environ['BOT_TOKEN' '6037473122:AAHGAL0iGxN2uLLPVA6KO8pUxLyqp6uRHaY'] # Bot token
+BOT_TOKEN = os.environ['BOT_TOKEN' '6100836063:AAGFb0BgjRAM7O7cAVJB8PLq71ByDuOou04'] # Bot token
 OWNER_ID = os.environ['OWNER_ID', '5842877813'] # Your telegram id
 AS_ZIP = bool(os.environ['AS_ZIP', 'False']) # Upload method. If True: will Zip all your files and send as zipfile | If False: will send file one by one
 BUTTONS = bool(os.environ['BUTTONS', 'Flase']) # Upload mode. If True: will send buttons (Zip or One by One) instead of AZ_ZIP | If False: will do as you've fill on AZ_ZIP
