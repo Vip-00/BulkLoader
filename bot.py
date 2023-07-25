@@ -17,10 +17,10 @@ BUTTONS = bool(os.environ['BUTTONS', 'Flase']) # Upload mode. If True: will send
 # Buttons
 START_BUTTONS=[
     [
-        InlineKeyboardButton("Source", url="https://github.com/X-Gorn/BulkLoader"),
-        InlineKeyboardButton("Project Channel", url="https://t.me/xTeamBots"),
+        InlineKeyboardButton("Source", url="https://t.me/teamspyadda"),
+        InlineKeyboardButton("Project Channel", url="https://t.me/teamspyadda"),
     ],
-    [InlineKeyboardButton("Author", url="https://t.me/xgorn")],
+    [InlineKeyboardButton("Author", url="https://t.me/teamspyadda")],
 ]
 
 CB_BUTTONS=[
